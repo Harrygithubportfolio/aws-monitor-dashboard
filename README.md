@@ -55,12 +55,12 @@ Step 3: Run the Application
 Start the Flask application:
 
 #### bash
+
 python monitor-policies.py
 Open your browser and visit:
 
-arduino
-
 http://127.0.0.1:5000/
+
 Usage
 
 Select a Region: When prompted, enter the AWS region you want to monitor (e.g., us-east-1, eu-west-2).
@@ -84,20 +84,6 @@ Roadmap
  Deploy the application on AWS Elastic Beanstalk or Lightsail.
 
 
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-Create a new branch:
-
-git checkout -b feature-name
-Commit your changes:
-
-git commit -m "Add feature-name"
-Push to the branch:
-
-git push origin feature-name
-Open a pull request.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
