@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Monitoring Dashboard</title>
+</head>
+<body>
+    <h1>AWS Monitoring Dashboard</h1>
+    <p>Welcome! Here is your data extracted from AWS:</p>
+    <ul>
+        {% for service, items in data.items() %}
+            <li><strong>{{ service }}</strong>:</li>
+            <ul>
+                {% for item in items %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ul>
+</body>
+</html>
